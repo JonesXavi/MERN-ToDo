@@ -1,4 +1,4 @@
-#TODO - MERN
+# TODO - MERN
 
 A simple ToDo app built in MERN stack.
 1. Created stateful components to keep things simple. Redux is not used.
@@ -28,5 +28,5 @@ Runs the node server in watch mode.<br>
 
 ### `npm run dev`
 
-Runs the node server and client application concurrently<br>
+Runs the node server and client application concurrently.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

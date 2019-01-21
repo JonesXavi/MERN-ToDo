@@ -1,7 +1,9 @@
 # Learnt in 2019 - [TODO - MERN]
 
 Its 2019 and **Winter Is Coming**. Well, apart from the excitements of GOT, Avengers: End game and others, there is a mandatory thing called **resolutions**. So, I thought to myself why not start a new one, a **learning resolution**.
-PS: I'm still struggling to succeed in my weights loss resolution :trollface:
+
+PS: I'm still struggling to succeed in my weight loss resolution :trollface:.
+
 So, I kickstart my **Learnt in 2019 Series** with this simple ToDo app. I will continue to develop apps atleast fortnightly :stuck_out_tongue_winking_eye: .
 
 A simple ToDo app built in MERN stack. Created stateful components to keep things simple. Redux is not used.
@@ -18,12 +20,17 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 
 Follow this [MLab document](https://docs.mlab.com/connecting/) to setup database.
-Create a DB user under **Users** tab. (Note: Avoid using special characters such as “@”, “/”, or “:” in your database username or password as they can cause issues if they are not properly escaped)
+Create a DB user under **Users** tab.
+
+**Note**: Avoid using special characters such as “@”, “/”, or “:” in your database username or password as they can cause issues if they are not properly escaped.
+
 Once completed, create a ```.env``` file in the root directory and put the below code:
+
 ```DB = 'mongodb://<dbuser>:<dbpassword>@<dburi>'```
-dbuser - The user created.
-dbpassword - The user's corresponding password.
-dburi - You can find this in the MLab page once you create a database.
+
+* dbuser - The user created.
+* dbpassword - The user's corresponding password.
+* dburi - You can find this in the MLab page once you create a database.
 
 ### Installing
 

@@ -35,14 +35,15 @@ Once completed, create a ```.env``` file in the root directory and put the below
 ### Installing
 
 1. Clone this repo to your local.
-2. Do ```npm install``` inside the repo folder.
-3. Once all necessary files are installed, run ```npm start dev```.
+2. Do ```npm run server-install``` inside the repo folder.
+3. Do ```npm run client-install```.
+3. Once all necessary files are installed, run ```npm run dev```.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the node server<br>
 Open [http://localhost:5000](http://localhost:5000) in postman or similar and to validate the APIs.
@@ -50,7 +51,7 @@ Open [http://localhost:5000](http://localhost:5000) in postman or similar and to
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm start-watch`
+### `npm run start-watch`
 
 Runs the node server in watch mode.<br>
 

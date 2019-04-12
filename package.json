@@ -7,9 +7,9 @@
     "start": "node index.js",
     "start-watch": "nodemon index.js",
     "server-install": "npm install",
-    "client-install": "\"cd client && npm install\"",
-    "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run start-watch\" \"npm run client\"",
+    "prod-build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [
     "ToDo",
